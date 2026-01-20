@@ -1,5 +1,5 @@
 # Flask Blog Renderer and Name Card Website (Jinja2 + Flask Template Rendering)
-Completed on Day 56 and 57 of 100 Days of Python
+Completed on Day 56, 57 and 58 of 100 Days of Python
 
 A simple Flask project created to understand how HTML templates, static files, and dynamic data all connect inside a Flask application. The script fetches blog post data from a public JSON API, converts each entry into a `Post` object, and passes the entire list into a Jinja-powered template.
 
@@ -8,3 +8,6 @@ On the homepage, Flask injects the list of posts into `index.html`, where Jinja 
 This project was mainly about understanding how Flask loads templates from the templates folder, how static assets like CSS are served from the static directory, and how Jinja expressions (`{{ }}`) and control structures (`{% %}`) are used to build dynamic pages.
 
 Skills learned: passing objects into templates, Basic Jinja variable rendering, using Jinja loops and variables, handling URL parameters with Flask routes, Organizing a simple Flask project with templates + static assets, and building dynamic multi-page sites with Flask + Jinja.
+
+Update:
+Bootstrap-powered blog site, focusing on improving layout, responsiveness, and visual structure without changing the underlying Flask logic. Bootstrap components and utility classes were used to style cards, buttons, and spacing, allowing the frontend to feel more polished while keeping the backend intentionally minimal.
