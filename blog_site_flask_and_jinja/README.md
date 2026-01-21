@@ -1,5 +1,5 @@
 # Flask Blog Renderer and Name Card Website (Jinja2 + Flask Template Rendering)
-Completed on Day 56, 57 and 58 of 100 Days of Python
+Completed on Day 56 to 59 of 100 Days of Python
 
 A simple Flask project created to understand how HTML templates, static files, and dynamic data all connect inside a Flask application. The script fetches blog post data from a public JSON API, converts each entry into a `Post` object, and passes the entire list into a Jinja-powered template.
 
