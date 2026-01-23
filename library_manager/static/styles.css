@@ -1,0 +1,138 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(160deg, #0e0e0e, #171717);
+    color: #e6e6e6;
+    padding-top: 40px;
+}
+
+h1, h2 {
+    border-left: 4px solid #e10600;
+    padding-left: 12px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+p, li, span {
+    font-size: 1.05rem;
+}
+
+.list-group {
+    background: #1a1a1a;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 25px rgba(0,0,0,0.5);
+    margin-bottom: 20px;
+}
+
+.list-group-item {
+    background-color: #1a1a1a;
+    border-color: #2a2a2a;
+    color: #e6e6e6 !important;
+    padding: 14px 18px;
+    transition: background-color 0.25s ease, transform 0.15s ease;
+}
+
+.list-group-item:hover {
+    background-color: #202020;
+    transform: translateX(3px);
+}
+
+.list-group-item span {
+    color: #e0e0e0;
+}
+
+.list-group-item:hover span {
+    color: #ffffff;
+}
+
+.list-group-item a {
+    color: #e6e6e6 !important;
+    text-decoration: none;
+}
+
+.list-group-item a:hover {
+    color: #ffffff !important;
+}
+
+.list-group-item .btn {
+    margin-left: 10px;
+}
+
+.btn {
+    border-radius: 6px !important;
+    transition: 0.15s ease, box-shadow 0.2s ease;
+}
+
+.btn-sm {
+    padding: 3px 12px !important;
+}
+
+.btn-primary {
+    background-color: #003eb3 !important;
+    border-color: #003eb3 !important;
+}
+
+.btn-primary:hover {
+    background-color: #002e87 !important;
+    box-shadow: 0 0 8px rgba(0, 62, 179, 0.5);
+}
+
+.btn-danger {
+    background-color: #e10600 !important;
+    border-color: #e10600 !important;
+}
+
+.btn-danger:hover {
+    background-color: #b30000 !important;
+    box-shadow: 0 0 8px rgba(225, 6, 0, 0.5);
+}
+
+.btn-success {
+    background-color: #00c851 !important;
+    border-color: #00c851 !important;
+}
+
+.btn-success:hover {
+    background-color: #00a63f !important;
+    box-shadow: 0 0 8px rgba(0, 200, 81, 0.4);
+}
+
+form {
+    background: #1a1a1a;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.5);
+    max-width: 420px;
+    margin-top: 25px;
+}
+
+label {
+    color: #e6e6e6;
+    font-weight: 500;
+}
+
+input {
+    background-color: #2a2a2a !important;
+    color: #ffffff !important;
+    border: 1px solid #333 !important;
+    border-radius: 6px !important;
+}
+
+input:focus {
+    border-color: #e10600 !important;
+    box-shadow: 0 0 6px rgba(225, 6, 0, 0.6) !important;
+}

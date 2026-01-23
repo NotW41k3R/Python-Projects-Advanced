@@ -1,0 +1,11 @@
+{% extends 'base.html'%}
+{% block title %} Edit Rating {% endblock %}
+
+{% block content %}
+
+<div class="container mt-5"> 
+    <h2>Edit Rating for {{book.title}}</h2>
+    <h3>Current Rating: {{book.rating}}</h3>
+    {{ render_form(form) }}
+</div>
+{% endblock %}
