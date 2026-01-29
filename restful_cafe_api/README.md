@@ -2,7 +2,7 @@
 Completed on Day 66 of 100 Days of Python
 
 A simple REST API built with Flask, SQLAlchemy, and SQLite to manage a database of cafés.
-It supports full CRUD operations: get random cafés, list all cafés, search by location, add new entries, update prices, and delete cafés with an API key.
+It supports full CRUD operations: get random cafés, list all cafés, search by location, add new entries, update prices, and delete cafés with an API key, tested using postman.
 
 The app uses SQLAlchemy’s ORM system to define a Cafe model with fields such as name, location, amenities, and coffee price. Each café record is represented as a Python object mapped to rows in a SQLite database.
 
