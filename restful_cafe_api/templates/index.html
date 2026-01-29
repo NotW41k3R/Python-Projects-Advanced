@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafe API Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #1e1e1e;
+            color: #eee;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            padding: 2rem;
+            background: #272727;
+            text-align: center;
+            border-bottom: 2px solid #444;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        p {
+            color: #bbb;
+        }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+        .endpoint {
+            background: #2a2a2a;
+            padding: 1rem 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            border: 1px solid #3a3a3a;
+        }
+        .endpoint h3 {
+            margin: 0;
+            font-size: 1.2rem;
+        }
+        .endpoint code {
+            background: #111;
+            padding: 3px 6px;
+            border-radius: 5px;
+        }
+        .method {
+            display: inline-block;
+            padding: 3px 8px;
+            margin-right: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            color: #fff;
+            font-size: 0.9rem;
+        }
+        .GET { background: #007acc; }
+        .POST { background: #1b8a5a; }
+        .PATCH { background: #b8860b; }
+        .DELETE { background: #b33a3a; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Cafe API</h1>
+    <p>REST API for cafes</p>
+</header>
+
+<div class="container">
+
+    <div class="endpoint">
+        <span class="method GET">GET</span>
+        <h3>/random</h3>
+        <p>Returns a random cafe from the database.</p>
+    </div>
+
+    <div class="endpoint">
+        <span class="method GET">GET</span>
+        <h3>/all</h3>
+        <p>Returns all cafes sorted by name.</p>
+    </div>
+
+    <div class="endpoint">
+        <span class="method GET">GET</span>
+        <h3>/search?loc=&lt;location&gt;</h3>
+        <p>Search cafes by location.</p>
+    </div>
+
+    <div class="endpoint">
+        <span class="method POST">POST</span>
+        <h3>/add</h3>
+        <p>Add a new cafe using form data.</p>
+    </div>
+
+    <div class="endpoint">
+        <span class="method PATCH">PATCH</span>
+        <h3>/update-price/&lt;cafe_id&gt;?new_price=x</h3>
+        <p>Update the coffee price of a cafe.</p>
+    </div>
+
+    <div class="endpoint">
+        <span class="method DELETE">DELETE</span>
+        <h3>/report-closed/&lt;cafe_id&gt;?api-key=TopSecretAPIKey</h3>
+        <p>Delete a cafe (requires API key which is TopSecretAPIKey for now).</p>
+    </div>
+
+</div>
+</body>
+</html>
